@@ -155,7 +155,7 @@ CMMI在2010年发布了CMMI1.3版本，该版本在模型架构上简化了多�
     repo: 'hoolchen_comments',
     owner: 'hoolchen',
     admin: ['hoolchen'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: decodeURI(location.pathname),      // Ensure uniqueness and length less than 50
     distractionFreeMode: true
   })
 
