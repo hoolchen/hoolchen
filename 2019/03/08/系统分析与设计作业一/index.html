@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="keywords" content="hexo,个人博客,blog">
+  <meta name="description" content="某某的个人博客">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="https://busuanzi.ibruce.info">
+  
+  <link rel="dns-prefetch" href="https://widget.daovoice.io">
+  <link rel="dns-prefetch" href="https://widget-static-cdn.daovoice.io">
+  <link rel="dns-prefetch" href="https://im.daovoice.io">
+  
+  
+  <link rel="dns-prefetch" href="https://hm.baidu.com/">
+  
+  
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://api.github.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  
+  <link rel="stylesheet" type="text/css" href="/./style/main.d9e3dd.css">
+	<link rel="shortcut icon" href="/favicon.ico" title="Favicon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+	<title>系统分析与设计作业一</title>
+  
+  <script>var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?awwssw1snsnsnn1ndndnndnd99j";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();
+  </script>
+  
+  
+    <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/123456.js","daovoice");daovoice('init',{app_id: "123456"});daovoice('update');
+  </script>
+  
+</head>
+<body>
+<canvas id="pattern-placeholder" height="230"></canvas>
+<div class="navbar-header">
+  <a class="blog-title" href="/">hoolchencodes</a>
+  <a class="face-img" href="/">
+    <img src="https://tva3.sinaimg.cn/crop.0.0.200.200.180/005Kc3C1jw8f2uep0hhkvj305k05k3yk.jpg">
+  </a>
+</div>
+<main>
+  <div class="article-title">
+    
+  
+  <h1 class="title">
+    系统分析与设计作业一
+  </h1>
+  
+
+
+    <ul class="article-info">
+      <li>
+        发布
+        <time datetime="2019-03-08T07:58:34.000Z" itemprop="datePublished">2019-03-08</time>
+      </li>
+      <li>
+        
+    更新 <time datetime="2019-03-10T08:25:44.712Z" itemprop="dateUpdated">2019-03-10</time>
+
+      </li>
+      <li id="busuanzi_container_page_pv">
+        阅读 <span id="busuanzi_value_page_pv"></span>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="article">
+      <div class="content">
+        
+        <h2 id="1-软件工程的定义"><a href="#1-软件工程的定义" class="headerlink" title="1.软件工程的定义"></a>1.软件工程的定义</h2><blockquote>
+<p>Software engineering is “(1) the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software, that is, the application of engineering to software,” and “(2) the study of approaches as in (1).” –– IEEE Standard 610.12<br>软件工程是一门研究用工程化方法构建和维护有效的、实用的和高质量的软件的学科。 它涉及程序设计语言、数据库、软件开发工具、系统平台、标准、设计模式等方面。</p>
+</blockquote>
+<h2 id="2-解释导致-software-crisis-本质原因、表现，述说克服软件危机的方法"><a href="#2-解释导致-software-crisis-本质原因、表现，述说克服软件危机的方法" class="headerlink" title="2.解释导致 software crisis 本质原因、表现，述说克服软件危机的方法"></a>2.解释导致 software crisis 本质原因、表现，述说克服软件危机的方法</h2><h3 id="本质原因："><a href="#本质原因：" class="headerlink" title="本质原因："></a>本质原因：</h3><p>&emsp;&emsp;落后的软件生产方式无法满足迅速增长的计算机软件的需求，从而导致软件开发与维护过程中出现一系列严重问题的现象。</p>
+<h3 id="表现"><a href="#表现" class="headerlink" title="表现:"></a>表现:</h3><ul>
+<li>项目运行超出预算。</li>
+<li>项目运行超过时间。</li>
+<li>软件质量低落。</li>
+<li>软件通常不匹配需求。</li>
+<li>项目无法管理，且代码难以维护。</li>
+</ul>
+<h3 id="克服软件危机的方法"><a href="#克服软件危机的方法" class="headerlink" title="克服软件危机的方法:"></a>克服软件危机的方法:</h3><ul>
+<li>人才的培养：国家加大对软件开发专业的招生力度，同时也要加大对软件开发设备的投入力度，此外公司与企业也要不断培养内部的软件开发新人，为软件开发储备人才资源</li>
+<li>激励政策：软件开发不是立竿见影的事，而是需要花费很多的时间和精力，这时国家与企业都要给软件开发人员优厚的待遇，这样就能够让软件开发人员一心一意地研究去创新</li>
+<li>开发人员：要多学习专业知识，同时现在基层去实践操作，这样有利于发现问题，然后开发出来的软件才有正对性和实用性</li>
+<li>团队协作：一个应用广泛的软件需要开发人员的团结协作，这样开发的效率才会更高，才能够满足高速发展的社会</li>
+<li>学会吸收和借鉴他人的经验，再加上自己经验，不断地去实践并创新，打破原有软件的困境。解决软件危机，既要有技术措施作支持，又要有必要的组织管理措施作保障</li>
+</ul>
+<h2 id="3-软件生命周期"><a href="#3-软件生命周期" class="headerlink" title="3.软件生命周期"></a>3.软件生命周期</h2><ul>
+<li>软件生命周期是指软件的产生直到成熟的全部过程</li>
+<li>软件生命周期模型是指人们为开发更好的软件而归纳总结的软件生命周期的典型实践参考</li>
+</ul>
+<h2 id="4-SWEBoK-的-15-个知识领域-An-Overview-of-the-SWEBOK-Guide-请中文翻译其名称与简短说明）"><a href="#4-SWEBoK-的-15-个知识领域-An-Overview-of-the-SWEBOK-Guide-请中文翻译其名称与简短说明）" class="headerlink" title="4.SWEBoK 的 15 个知识领域(An Overview of the SWEBOK Guide 请中文翻译其名称与简短说明）"></a>4.SWEBoK 的 15 个知识领域(An Overview of the SWEBOK Guide 请中文翻译其名称与简短说明）</h2><ul>
+<li>Software Requirements 软件需求：关注软件需求的启发，协商，分析，规范和验证。软件需求表达了对软件产品的需求和限制，这些需求和约束有助于解决一些现实问题。</li>
+<li>Software Design 软件设计：定义系统或组件的体系结构，组件，接口和其他特征的过程以及该过程的结果。软件设计过程是软件工程生命周期活动，其中分析软件需求以产生软件内部结构及其行为的描述，其将作为其构造的基础。软件设计（结果）必须描述软件体系结构 - 即软件如何分解和组织成组件以及这些组件之间的接口。它还必须描述能够构建它们的详细程度的组件。</li>
+<li>Software Construction 软件建设：通过结合详细设计，编码，单元测试，集成测试，调试和验证来详细创建工作软件。</li>
+<li>Software Testing 软件测试：评估产品质量并通过识别缺陷来改进产品质量。</li>
+<li>Software Maintenance 软件维护：增强现有功能，调整软件以在新的和修改的操作环境中运行，以及纠正缺陷。</li>
+<li>Software Configuration Management 软件配置管理：硬件，固件，软件及其组合的功能和物理特征。</li>
+<li>Software Engineering Management 软件工程管理：规划，协调，测量，报告和控制项目或程序，以确保软件的开发和维护是系统化的，规范化的和量化的。</li>
+<li>Software Engineering Process 软件工程过程：关注软件生命周期过程的定义，实施，评估，测量，管理和改进。</li>
+<li>Software Engineering Models and Methods 软件工程模型与方法：建模、 模型类型、分析、和软件开发方法。</li>
+<li>Software Quality 软件质量：解决普遍存在的软件生命周期问题。</li>
+<li>Software Engineering Professional Practice 软件工程专业实践：关注软件工程师必须具备的专业，负责和符合伦理的软件工程知识，技能和态度。</li>
+<li>Software Engineering Economics 软件工程经济学：关注在业务环境中做出决策，以使技术决策与组织的业务目标保持一致。涵盖的主题包括软件工程经济学的基本原理（提案，现金流量，货币时间价值，计划视野，通货膨胀，折旧，替代和退休决策）; 非营利性决策（成本效益分析，优化分析）; 估计，经济风险和不确定性（估算技术，风险决策和不确定性）; 和多属性决策（价值和衡量尺度，补偿和非补偿技术）。</li>
+<li>Computing Foundations 计算基础：提供软件工程实践所需的计算背景。涵盖的主题包括问题解决技术，抽象，算法和复杂性，编程基础，并行和分布式计算的基础知识，计算机组织，操作系统和网络通信。</li>
+<li>Mathematical Foundations 数学基础：提供软件工程实践所必需的数学背景。涵盖的主题包括集合，关系和功能; 基本命题和谓词逻辑; 证明技术; 图形和树木; 离散概率; 语法和有限状态机; 和数论。</li>
+<li>Engineering Foundations 工程基础：盖了提供软件工程实践所必需的工程背景。涵盖的主题包括经验方法和实验技术; 统计分析; 测量和指标; 工程设计; 仿真与建模; 和根本原因分析</li>
+</ul>
+<h3 id="5-简单解释-CMMI-的五个级别。例如：Level-1-Initial：无序，自发生产模式"><a href="#5-简单解释-CMMI-的五个级别。例如：Level-1-Initial：无序，自发生产模式" class="headerlink" title="5.简单解释 CMMI 的五个级别。例如：Level 1 - Initial：无序，自发生产模式"></a>5.简单解释 CMMI 的五个级别。例如：Level 1 - Initial：无序，自发生产模式</h3><ul>
+<li>初始级：管理制度缺乏、过程缺乏定义、混乱无序。</li>
+<li>可管理级：建立了基本的项目管理过程来跟踪费用、进度和功能特性。制定了必要的过程纪律，能重复早先类似应用项目取得的成功经验。</li>
+<li>已定义级：已将软件管理和工程两方面的过程文档化、标准化，并综合成该组织的标准软件过程。所有项目均使用经批准、剪裁的标准软件过程来开发和维护软件，软件产品的生产在整个软件过程是可见的。</li>
+<li>量化管理级：分析对软件过程和产品质量的详细度量数据，对软件过程和产品都有定量的理解与控制。管理有一个作出结论的客观依据，管理能够在定量的范围内预测性能。</li>
+<li>优化管理级：过程的量化反馈和先进的新思想、新技术促使过程持续不断改进</li>
+</ul>
+<h3 id="6-用自己语言简述-SWEBok-或-CMMI-（约200字）"><a href="#6-用自己语言简述-SWEBok-或-CMMI-（约200字）" class="headerlink" title="6.用自己语言简述 SWEBok 或 CMMI （约200字）"></a>6.用自己语言简述 SWEBok 或 CMMI （约200字）</h3><pre><code>CMMI：
+CMMI是一套融合多学科的、可扩充的产品集合，其研制的初步动机是为了利用两个或多个单一学科的模型实现一个组织的集成化过程改进。CMMI的本质是软件管理工程的一个部分。
+CMMI自出道以来，目标始终不变，及质量、时间表、成本低。可以用一句话概括CMMI，它就是各个进程的一个关键的元素，在很多领域里面一个集成的点。它是这样的一个基本架构，能够用来度量你的有效性和实用性；能够找出这样的一些机会，继续改进的机会，包括在商业目标、策略还有降低项目的风险等方面。
+CMMI在2010年发布了CMMI1.3版本，该版本在模型架构上简化了多个模型的使用。也将过程域“组织级创新与部署”更名为“组织绩效管理”，并添加了一个新的特定目标与几个新的特定实践。
+</code></pre>
+      </div>
+        <div class="support-author">
+          <p>感谢您的阅读。 🙏
+          <a href="https://888.com/index.html" target="_blank">关于转载请看这里</a>
+            <!--<a class="btn-pay"  href="#pay-modal">¥ 打赏支持</a>-->
+          </p>
+        </div>
+        <!--
+            <div class="like ">
+              <div class="like-button">
+                <a id="like-note" href="">
+                  <i class="icon-heart"></i>喜欢
+                </a>
+              </div>
+              <span id="likes-count">256</span>
+            </div>
+        -->
+        <div class="otherLink">
+          <div class="previous">
+          </div>
+          <div class="next">
+          </div>
+        </div>
+        <div class="comments" id="comments">
+          
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+  const gitalk = new Gitalk({
+    clientID: 'ca381225e22ce3127684',
+    clientSecret: '7dd4984948043f76543b7d87985869470b9a31de',
+    repo: 'hoolchen_comments',
+    owner: 'hoolchen',
+    admin: ['hoolchen'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: true
+  })
+
+  gitalk.render('comments');
+</script>
+
+
+        </div>
+      </div>
+    </div>
+   
+</main>
+<div class="footer">
+  <div class="info">
+    <p>
+    <a href="https://hexo.io"> Hexo </a> 强力驱动 |
+      <a href="https://github.com/Youthink/hexo-themes-yearn"> Yearn </a>
+      主题
+    </p>
+    <p>&copy;2013-2018 某某的博客 京ICP备xxxxxx号</p>
+  </div>
+</div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script>//console
+  var consoleConfig = '\n欢迎访问 https://hufangyun.com ，围观小猿大圣的博客(づ｡◕‿‿◕｡)づ！\n,\n本博客使用 %cHexo%c 搭建，博客主题为小猿大圣开发的 %chexo-themes-yearn%c ~~~ 🎉🎉🎉 \n\n源码 https://github.com/Youthink/hexo-themes-yearn \n\n如果喜欢可以 star 支持一下 ❤️~\n,\n扫描下面的二维码，在手机上查看博客！\n,https://static.hufangyun.com/blog-url-qrcode-180-180.png,\n 想知道这个效果如何实现的？博客内搜索 console 彩蛋 🚀 ！\n'.split(',');
+  var canConsole = true;
+  var consoleInfo = (function(consoleConfig) {
+  if (!canConsole || !consoleConfig || consoleConfig.length < 1) {
+    return;
+  }
+  var consoleColor = '#6190e8';
+  var _console;
+  var backgroundTextStyle = 'padding: 1px 5px;color: #fff;background: ' + consoleColor + ';'
+  var textStyle = 'color: ' + consoleColor + ';';
+
+  consoleConfig.map(o => {
+    var num = (o.match(/%c/g) || []).length;
+    if(/^http(s)?:\/\//.test(o)) {
+      console.log('%c     ', 'background: url(' + o + ') no-repeat left center;font-size: 180px;');
+      return;
+    }
+    if (num > 0) {
+      var logArguments = [];
+      for (var i = 0; i < num; i++) {
+        if (i % 2 === 0) {
+          logArguments.push(backgroundTextStyle);
+        } else {
+          logArguments.push(textStyle);
+        }
+      }
+      (_console = console).log.apply(_console, ['%c' + o, textStyle].concat(logArguments));
+      return;
+    }
+    console.log('%c' + o, textStyle);
+  });
+}(consoleConfig));</script><script type="text/javascript" src="/./js/main.d9e3dd.js"></script>
+
+</body>
+</html>
